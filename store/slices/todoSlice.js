@@ -3,7 +3,7 @@ import { createSlice } from '@reduxjs/toolkit';
 const TodoSlice = createSlice({
   name: 'todo',
   initialState: {
-    list: [{}, {}, {}],
+    list: [],
   },
   reducers: {
     addTodo: (state, { payload }) => {
